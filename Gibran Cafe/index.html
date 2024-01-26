@@ -15,130 +15,146 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    
   </head>
 
   <body>
     <header>
       <div class="jumbotron">
         <h1>Gibran Cafe</h1>
-        <p>
-          Merupakan salah satu cafe yang dekat dari pusat kota gowa dengan nuansa gaya estetik,
-          minimalis serta memberi kenyamanan pasti kepada pelanggan
-        </p>
+        <p> Kafe estetik, minimalis, dengan menjamin kenyamanan pelanggan</p>
       </div>
+
+      <div id="slider-container">
+        <div id="image-slider">
+          <div class="slide"><img src="assets/image/background1.webp" alt="Image 1"></div>
+          <div class="slide"><img src="assets/image/background2.jpeg" alt="Image 2"></div>
+          <div class="slide"><img src="assets/image/background4.jpg" alt="Image 3"></div>
+        </div>
+      </div>
+      
+      <button onclick="prevSlide()">Previous</button>
+      <button onclick="nextSlide()">Next</button>
 
       <nav>
         <ul>
           <li>
-            <a href="#sejarah">Sejarah</a>
+            <a href="#filosofi">Filosofi</a>
           </li>
           <li>
-            <a href="#geografis">Geografis</a>
+            <a href="#lokasi">Lokasi</a>
           </li>
           <li>
-            <a href="#wisata">Wisata</a>
+            <a href="#menu">Menu</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <!-- Konten artikel -->
+      
       <div id="content">
-        <article id="sejarah" class="card">
-          <h2>Sejarah</h2>
-          <img src="assets/image/history.jpg" alt="sejarah" class="featured-image" />
+        <article id="filosofi" class="card">
+          <h2>Filosofi</h2>
+          <img src="assets/image/gambar3.jpeg" alt="filosofi" class="featured-image" />
           <p>
-            Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai
-            Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang
-            diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari
-            sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut
-            perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk
-            melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan
-            ibu kota yang lama di Dayeuhkolot.
+            Gibran Cafe adalah cermin dari Bentuk keindahan dalam kesederhanaan. 
+            Seiring dengan estetika yang bersih dan minimalis, 
+            kami percaya bahwa keindahan sejati dapat ditemukan dalam hal-hal yang sederhana. 
+            Kami menciptakan ruang yang tidak hanya memanjakan indera, tetapi juga menyentuh jiwa. 
+            Desain interior yang simpel, dipadukan dengan palet warna yang tenang, 
+            menciptakan suasana yang menenangkan dan membebaskan pikiran.
           </p>
 
           <p>
-            Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda
-            Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda.
-            Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang
-            berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati.
-            Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu
-            Pertiwi tempat Banda berada.
+            Setiap detail dipilih dengan cermat untuk menciptakan keseluruhan yang harmonis. 
+            Seperti secangkir kopi yang lezat, setiap elemen memiliki peran penting 
+            dalam membentuk pengalaman yang tak terlupakan. Kami mengutamakan kualitas tanpa mengorbankan kehangatan. 
+            Cafe ini bukan hanya tempat untuk bersantai, tetapi juga ruang untuk menemukan inspirasi dan merenung.
           </p>
+
+          <p>
+            Kenyamanan adalah pijakan utama kami. Kami berusaha memberikan lebih dari sekadar tempat untuk minum kopi; 
+            kami menciptakan pelukan hangat bagi setiap pengunjung. Dengan pencahayaan yang lembut, 
+            furnitur yang nyaman, dan sentuhan tumbuhan hijau yang menyejukkan, 
+            kami mengajak setiap orang untuk melupakan kekhawatiran sejenak dan menemukan kedamaian dalam kesederhanaan.
+          </p>
+
         </article>
 
-        <article id="geografis" class="card">
-          <h2>Geografis</h2>
-          <img src="assets/image/geografis.jpg" alt="geografis" class="featured-image" />
+        <article id="lokasi" class="card">
+          <br>
+          <br>
+          <h2>Lokasi dan Deskripsi Tempat</h2>
+          <img src="assets/image/background1.webp" alt="lokasi" class="featured-image" />
           <p>
-            Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan
-            sebuah mangkok raksasa,[9] secara geografis kota ini terletak di tengah-tengah provinsi
-            Jawa Barat, serta berada pada ketinggian ±768 m di atas permukaan laut, dengan titik
-            tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan
-            laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas
-            permukaan laut.
+            Gibran Cafe ini terletak di Provinsi Sulawesi Selatan, Kabupaten Gowa, Kecamatan Somba Opu
+            Kelurahan Bonto-bontoa, di Jalan Mangka Dg Bombong. Cafe ini sangat dekat dengan Pesisir Pantai
+            di kota gowa sehingga kita dapat menikmati desir ombak yang hangat dan juga dapat dijadikan
+            sebagai tempat untuk melihat matahari senja yang memukau di senja hari 
+          </p>
+          <img src="assets/image/background4.jpg" alt="interior" class="featured-image" />
+          <p>
+            Cafe ini memiliki Ruangan Outdoor dan Indoor dengan ruangan indoor yang ber AC dan
+            bebas dari asap rokok. juga disediakan 2 toilet yakni pria dan wanita serta panggung
+            untuk orang yang ingin bernyanyi. cafe ini memiliki warna nuansa kecoklatan yang
+            tampak minimalis dan juga memukau sehingga pengunjung tidak bosan ketika berada di Cafe
+            ini. juga memiliki menu yang beraneka ragam sehingga pengunjung bisa dengan leluasa
+            memilih menu yang mungkin ia inginkan untuk dihidangkan
           </p>
 
-          <p>
-            Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum
-            beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di
-            Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap
-            masalah banjir terutama pada musim hujan.
-          </p>
         </article>
 
-        <article id="wisata" class="card">
-          <h2>Wisata</h2>
+        <article id="menu" class="card">
+          <br>
+          <br>
+          <h2>Menu dan Makanan Terlaris</h2>
           <p>
-            Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam
-            menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta
-            sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan
-            sejumlah besar bangunan lama berarsitektur peninggalan Belanda.
+            Kami mengkategorikan beberapa menu yang mungkin sangat unik dan laris
+            di tempat ini. sehingga adapun beberapa menu dibawah ini yakni :
           </p>
 
           <section>
-            <h3>Farm House Lembang</h3>
-            <img src="assets/image/farm-house.jpg" alt="farm house" class="featured-image" />
+            <h3>Luwak Black Coffee</h3>
+            <img src="assets/image/luwak_coffee.jpeg" alt="minuman" class="featured-image" />
             <p>
-              Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak
-              pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga
-              menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto
-              Instagramable.
+              Luwak Black Coffee hadir dengan biji kopi pilihan dari ketinggian yang tepat, 
+              ditanam dengan cinta dan dipetik secara selektif untuk menjamin kualitas tertinggi. 
+              Hanya biji yang matang dan terbaik yang dipilih untuk menciptakan keajaiban kopi ini.
+              diproses dengan memiih biji kopi pilihan terbaik dari hasil luwak yang ekslusif, dengan
+              proses pembuatan kopi yang berkualitas sehingga menciptakan cita rasa berkualitas 
+              di setiap tegukan
+
             </p>
           </section>
 
           <section>
-            <h3>Observatorium Bosscha</h3>
-            <img src="assets/image/bosscha.jpg" alt="bosscha" class="featured-image" />
+            <h3>Banana Fried with Sugar Palm</h3>
+            <img src="assets/image/pisang.webp" alt="makanan" class="featured-image" />
             <p>
-              Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti,
-              Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah
-              jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah
-              sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha
-              boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin menggunakan
-              teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan,
-              diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka
-              setiap hari Sabtu.
+              "Banana Fried Sugar palm yang menggoda selera dengan kelembutan pisang yang lezat 
+              dan lapisan gula aren yang caramelized. Diproduksi secara teliti, setiap potongan pisang dipeluk dalam adonan berempah, 
+              lalu digoreng hingga keemasan sempurna. Saat disajikan, aroma manis dan harum dari pisang yang matang 
+              dengan gula aren yang karamel memberikan pengalaman kuliner yang tak terlupakan.
             </p>
           </section>
         </article>
       </div>
 
-      <!-- Konten samping -->
+      
       <aside>
         <article class="profile card">
           <header>
-            <h2>Kota Bandung</h2>
-            <p>Kota Kembang Paris van Java</p>
+            <h2>Manager</h2>
+            <p style="font-size:20px;"><strong>Gibran Cafe</strong></p>
             <figure>
-              <img src="assets/image/bandung-badge.png" />
-              <figcaption>Lambang</figcaption>
+              <img src="assets/image/manager.png" style="border-radius: 50%;"/>
+              <figcaption style="font-size: 20px;"><strong>Muh Kholil Gibran</strong></figcaption>
             </figure>
           </header>
 
           <section>
-            <h3>Informasi Lainnya</h3>
+            <h3>Biodata Lainnya</h3>
 
             <table>
               <tr>
@@ -146,20 +162,20 @@
                 <td>Indonesia</td>
               </tr>
               <tr>
-                <th>Hari jadi</th>
-                <td>25 September 1810</td>
+                <th>Tempat, Tgl Lahir</th>
+                <td>03 Agustus 2003</td>
               </tr>
               <tr>
-                <th>Luas Total</th>
-                <td>167.67 km<sup>2</sup></td>
+                <th>Hobby</th>
+                <td>Ngoding,main game</td>
               </tr>
               <tr>
-                <th>Bahasa Daerah</th>
-                <td>Sunda</td>
+                <th>Pendidikan</th>
+                <td>Universitas Negeri Makassar</td>
               </tr>
               <tr>
-                <th>Kode Telepon</th>
-                <td>+62 22</td>
+                <th>No Telp</th>
+                <td>+6282293279341</td>
               </tr>
             </table>
           </section>
@@ -168,7 +184,9 @@
     </main>
 
     <footer>
-      <p>Belajar Dasar Pemrograman Web &#169; 2024, Muh Kholil Gibran</p>
+      <p>Projek Dicoding Belajar Dasar Pemrograman Web &#169; 2024, Muh Kholil Gibran</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

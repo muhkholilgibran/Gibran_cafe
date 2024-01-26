@@ -4,31 +4,27 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-
   margin: 0;
   padding: 0;
 }
 
 h2,
 h3 {
-  color: #40a745;
+  color: #8E3200;
 }
 
 footer {
   padding: 20px;
   color: white;
-  background-image: blue;
-
+  background-color: blue;
   text-align: center;
   font-weight: bold;
 }
 
 nav a {
   font-size: 18px;
-
   font-weight: 400;
   text-decoration: none;
-
   color: white;
 }
 
@@ -43,7 +39,6 @@ nav a:hover {
 .featured-image {
   width: 100%;
   max-height: 300px;
-
   object-fit: cover;
   object-position: center;
 }
@@ -61,9 +56,11 @@ nav a:hover {
 .jumbotron {
   font-size: 20px;
   padding: 60px;
-  background-color: #00c8eb;
   text-align: center;
-  color: white;
+  background-image: url('/Gibran Cafe/assets/image/jumbotron3.jpg');
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -77,7 +74,7 @@ nav li {
 }
 
 nav {
-  background-color: #00a2c6;
+  background-color: #8E3200;
   padding: 5px;
   position: sticky;
   top: 0;
@@ -121,4 +118,42 @@ aside {
 
 header {
   display: inline;
+}
+
+#slider-container {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#image-slider {
+  display: flex;
+  max-height: 300px;
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+.slide {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 5px;
+  
+}
+
+.slide img {
+  object-fit: cover; /* atau sesuaikan dengan kebutuhan Anda */
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Atur tata letak atau gaya khusus untuk layar dengan lebar maksimum 768px */
+  #slider-container {
+    width: 100%;
+  }
 }
