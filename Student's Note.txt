@@ -1,0 +1,39 @@
+
+Struktur HTML:
+
+<div id="slider-container">: Ini adalah div utama yang berperan sebagai kontainer slider.
+<div id="image-slider">: Ini adalah div yang berisi elemen-elemen gambar yang akan ditampilkan dalam slider.
+<div class="slide">: Ini adalah div yang berisi satu gambar dalam slider.
+CSS:
+
+#slider-container: Mengatur gaya untuk kontainer slider, seperti lebar, margin, dan pengaturan overflow.
+#image-slider: Mengatur tata letak dan transisi untuk elemen-elemen gambar dalam slider.
+.slide: Mengatur ukuran minimum dari setiap elemen gambar agar dapat menyesuaikan lebar kontainer slider.
+JavaScript:
+
+const slider = document.getElementById('image-slider');: Mendapatkan referensi elemen slider.
+let slideIndex = 0;: Variabel untuk melacak indeks gambar yang ditampilkan.
+function showSlide(index) { ... }: Fungsi untuk menampilkan gambar pada indeks tertentu.
+function nextSlide() { ... }: Fungsi untuk menampilkan gambar berikutnya.
+function prevSlide() { ... }: Fungsi untuk menampilkan gambar sebelumnya.
+Button Controls:
+
+<button onclick="prevSlide()">Previous</button>: Tombol untuk mengganti gambar ke gambar sebelumnya.
+<button onclick="nextSlide()">Next</button>: Tombol untuk mengganti gambar ke gambar berikutnya.
+Responsivitas:
+
+Penggunaan persentase untuk lebar kontainer slider dan gambar membuat slider dapat menyesuaikan ukuran layar.
+Properti min-width: 100%; pada kelas .slide memastikan bahwa gambar menutupi seluruh lebar slider.
+
+Berikut langkah-langkah umum untuk mengakses slider tersebut:
+
+pertaman membuat File HTML:
+membuat kode HTML terlebih dahulu terhadap file yang kita inginkan misalnya index.html.
+
+kemudian membuat File CSS:
+selanjutnya membuat file javascriptnya dan pastikan keseluruhan file html dan css tersimpan dalam 1 direktori
+
+
+Simpan file index.html, styles.css, dan script.js kedalam satu direktori atau folder yang sama 
+
+Buka file index.html menggunakan browser. Caranya dapat dilakukan dengan mengklik dua kali pada file atau dengan menariknya ke dalam jendela browser.
